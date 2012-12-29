@@ -1,0 +1,8 @@
+2010-12-27  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION: Version 0.1.0 --- new package, split off RcppExamples
+	0.1.4 which now covers the Rcpp API only
+
+	* man/*: Updated to stress that this API is deprecated, added links
+	to Rcpp documentation
+
