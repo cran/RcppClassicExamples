@@ -1,5 +1,5 @@
-23d1c719e07eceb398a358a82ca262ef *ChangeLog
-8984001865376401ddb6a725cb604d18 *DESCRIPTION
+1d7ee52cd12d89f61727586f2ac73f77 *ChangeLog
+f91ae9982e3128beff1f65fb3cc51ab1 *DESCRIPTION
 181ae90a39ebef61a89fb9a34ef2af16 *NAMESPACE
 39b38132492a66253626da5056957a81 *R/RcppDateExample.R
 76c68f79e5f3fb7351098b02fc360a45 *R/RcppExample.R
@@ -8,6 +8,7 @@
 dc4728a9f60fcdbfec6e55c7c8e3c874 *R/RcppStringVectorExample.R
 e2dc9371c21e41e608799d18c7be6260 *R/RcppVectorExample.R
 7122e143997bfa0089add8f8b4e0039a *cleanup
+bdce3aac8e6f8948f28c0e73fca96d2e *inst/NEWS.Rd
 b695b85ae641e3c70905f2f0be8324d5 *man/RcppClassicExamples-packages.Rd
 d2d8cb9c92a982c9ae5bed41f94f05ed *man/RcppDataFrame.Rd
 8a2ad3c589b8ce9289e729637116e98a *man/RcppDate.Rd
