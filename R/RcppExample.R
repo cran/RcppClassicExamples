@@ -92,10 +92,8 @@ RcppExample <- function(params, nlist, numvec, nummat, df, datevec, stringvec,
     }
 
     ## Finally ready to make the call...
-    val <- .Call("Rcpp_Example", params, nlist, numvec, nummat,
-                 df, datevec, stringvec, fnvec, fnlist,
-                 PACKAGE="RcppClassicExamples"
-                 )
+    val <- .Call(Rcpp_Example, params, nlist, numvec, nummat,
+                 df, datevec, stringvec, fnvec, fnlist)
 
     ## Define a class for the return value so we can control what gets
     ## printed when a variable assigned this value is typed on a line by itself.

@@ -22,8 +22,7 @@
 RcppVectorExample <- function(vec=seq(1,9)^2) {
 
     ## Make the call...
-    val <- .Call("classicRcppVectorExample", vec,
-                 PACKAGE= "RcppClassicExamples")
+    val <- .Call(classicRcppVectorExample, vec)
 
     val
 }

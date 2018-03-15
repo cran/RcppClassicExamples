@@ -1,7 +1,9 @@
-useDynLib(RcppClassicExamples)
+useDynLib(RcppClassicExamples, .registration=TRUE)
+
+import(Rcpp)
+import(RcppClassic)
 
 export(RcppExample,
-       print.RcppExample,
        RcppDateExample,
        RcppParamsExample,
        RcppVectorExample,
@@ -9,4 +11,5 @@ export(RcppExample,
        RcppStringVectorExample
 )
 
+S3method(print,RcppExample)
 

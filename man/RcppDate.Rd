@@ -72,7 +72,7 @@
 
 }
 \references{
-  \emph{Writing R Extensions}, available at \url{http:www.r-project.org}.
+  \emph{Writing R Extensions}, available at \url{https://www.r-project.org}.
 }
 \seealso{
   \code{RcppResultSet}.

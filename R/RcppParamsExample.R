@@ -31,8 +31,7 @@ RcppParamsExample <- function(params) {
     }
 
     ## Make the call...
-    val <- .Call("classicRcppParamsExample", params,
-                 PACKAGE="RcppClassicExamples")
+    val <- .Call(classicRcppParamsExample, params)
 
     val
 }

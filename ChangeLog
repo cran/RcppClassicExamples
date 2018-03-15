@@ -1,3 +1,28 @@
+2018-03-15  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.1.2
+
+	* NAMESPACE: registered S3 print method for RcppExample
+
+	* man/RcppDate.Rd: Update to https URL
+	* man/RcppExample.Rd: Idem
+	* man/RcppParams.Rd: Idem
+	* inst/NEWS.Rd: Idem
+
+	* src/init.c: Added R_init_* registration
+
+	* R/RcppDateExample.R: Updated .Call thanks to registration
+	* R/RcppExample.R: Idem
+	* R/RcppMatrixExample.R: Idem
+	* R/RcppParamsExample.R: Idem
+	* R/RcppStringVectorExample.R: Idem
+	* R/RcppVectorExample.R: Idem
+
+2014-01-25  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION: Switch Depends: to Imports: for Rcpp, RcppClassic
+	* NAMESPACE: Add import() for Rcpp, RcppClassic
+
 2012-12-30  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION: Version 0.1.1

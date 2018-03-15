@@ -22,8 +22,7 @@
 RcppMatrixExample <- function(mat=matrix(seq(1,9)^2, ncol=3)) {
 
     ## Make the call...
-    val <- .Call("classicRcppMatrixExample", mat,
-                 PACKAGE="RcppClassicExamples")
+    val <- .Call(classicRcppMatrixExample, mat)
 
     val
 }

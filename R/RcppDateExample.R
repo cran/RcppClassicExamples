@@ -33,8 +33,7 @@ RcppDateExample <- function(dv, dtv) {
     }
 
     ## Make the call...
-    val <- .Call("classicRcppDateExample", dv, dtv,
-                 PACKAGE="RcppClassicExamples")
+    val <- .Call(classicRcppDateExample, dv, dtv)
 
     val
 }
