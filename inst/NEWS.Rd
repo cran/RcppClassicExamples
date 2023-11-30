@@ -2,6 +2,13 @@
 \title{News for Package \pkg{RcppClassicExamples}}
 \newcommand{\cpkg}{\href{https://CRAN.R-project.org/package=#1}{\pkg{#1}}}
 
+\section{Changes in version 0.1.3 (2023-11-30)}{
+  \itemize{
+    \item Update \code{Rf_error()} call to not tickle \code{-Wformat}
+    \item Minor other packaging and continuous integration tweaks
+  }
+}
+
 \section{Changes in version 0.1.2 (2018-03-15)}{
   \itemize{
     \item Registered S3 print method [per CRAN request]

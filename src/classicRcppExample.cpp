@@ -1,9 +1,8 @@
-// -*- mode: C++; c-indent-level: 4; c-basic-offset: 4; -*-
-//
+
 // RcppExample.cpp: R/C++ interface class library example
 //
 // Copyright (C) 2005 - 2006 Dominick Samperi
-// Copyright (C) 2008 - 2009 Dirk Eddelbuettel
+// Copyright (C) 2008 - 2023 Dirk Eddelbuettel
 //
 // This file is part of Rcpp.
 //
@@ -325,7 +324,7 @@ RcppExport SEXP Rcpp_Example(SEXP params, SEXP nlist,
     }
     
     if(exceptionMesg != NULL)
-	Rf_error(exceptionMesg);
+	Rf_error("%s", exceptionMesg);
 
     return rl;
 }

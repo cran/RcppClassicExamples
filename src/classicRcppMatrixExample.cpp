@@ -1,10 +1,9 @@
-// -*- mode: C++; c-indent-level: 4; c-basic-offset: 4; tab-width: 8 -*-
-//
+
 // RcppMatrixExample.cpp: Rcpp R/C++ interface class library RcppMatrix example
 //
 // Copyright (C) 2005 - 2006 Dominick Samperi
 // Copyright (C) 2008        Dirk Eddelbuettel
-// Copyright (C) 2009 - 2010 Dirk Eddelbuettel and Romain Francois
+// Copyright (C) 2009 - 2023 Dirk Eddelbuettel and Romain Francois
 //
 // This file is part of Rcpp.
 //
@@ -62,7 +61,7 @@ RcppExport SEXP classicRcppMatrixExample(SEXP matrix) {
     }
     
     if(exceptionMesg != NULL)
-	Rf_error(exceptionMesg);
+	Rf_error("%s", exceptionMesg);
 
     return rl;
 }

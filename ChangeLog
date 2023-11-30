@@ -1,3 +1,31 @@
+2023-11-30  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.1.3
+
+	* src/classicRcppParamsExample.cpp: Add "%s" to Rf_error() call
+	* src/classicRcppVectorExample.cpp: Idem
+	* src/classicRcppExample.cpp: Idem
+	* src/classicRcppStringVectorExample.cpp: Idem
+	* src/classicRcppMatrixExample.cpp: Idem
+	* src/classicRcppDateExample.cpp: Idem
+
+	* src/Makevars: Remove long superfluous Rcpp link instruction
+	* src/Makevars.win: Idem
+
+	* .github/workflows/ci.yaml (jobs): Update to actions/checkout@v4
+
+2022-11-10  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml (jobs): Update to actions/checkout@v3
+
+2021-04-22  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (URL, BugReports): Added to DESCRIPTION
+
+2021-01-03  Dirk Eddelbuettel  <edd@debian.org>
+
+        * .github/workflows/ci.yaml: Add CI runner using r-ci
+
 2018-03-15  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Release 0.1.2
